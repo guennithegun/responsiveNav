@@ -4,6 +4,7 @@ let topPallet = document.getElementById('firstPallet');
 let middlePallet = document.getElementById('secondPallet');
 let bottomPallet = document.getElementById('thirdPallet');
 let navMenu = document.getElementById('navSlideIn');
+let navLists = document.getElementById('navLists');
 // eventlistener
 myBurgerMenu.addEventListener('click', function() {
   // move the span tags
@@ -12,4 +13,5 @@ myBurgerMenu.addEventListener('click', function() {
   bottomPallet.classList.toggle('bottomPallet');
   //slide in the nav
   navMenu.classList.toggle('navFullscreen');
+  navLists.classList.toggle('navListsSlide');
 });
