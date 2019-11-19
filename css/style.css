@@ -95,8 +95,9 @@ html, body {
 }
 
 .navContent__lists {
-  position: relative;
+  position: absolute;
   left: 150px;
+  right: 0;
   transition: left 0.4s 0.15s;
 }
 
